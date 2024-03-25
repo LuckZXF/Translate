@@ -4,23 +4,16 @@
 import PackageDescription
 
 let package = Package(
-    name: "Translate",
+    name: "TranslateCore",
     products: [
         .library(name: "TranslateCore", targets: ["TranslateCore"])
     ],
-    dependencies: [
-        .package(
-            url: "https://github.com/IngmarStein/CommandLineKit",
-            from: "2.3.0"
-        )
-    ],
+    
     targets: [
         .target(
-            name: "Translate",
-            dependencies: ["TranslateCore","CommandLineKit"]
-        ),
-        .target(
-            name: "TranslateCore"
+            name: "TranslateCore",
+            dependencies: [],
+            path: "TranslateCore"
         )
     ]
 )
