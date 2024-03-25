@@ -13,7 +13,7 @@ let package = Package(
         .target(
             name: "TranslateCore",
             dependencies: [],
-            path: "TranslateCore"
+            path: "Sources/TranslateCore"
         )
     ]
 )
