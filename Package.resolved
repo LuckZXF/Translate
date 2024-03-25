@@ -1,0 +1,15 @@
+{
+  "originHash" : "d7185c86427a5b098daef694e7d20b95106bcf24f8654991a6c1541495615b63",
+  "pins" : [
+    {
+      "identity" : "commandlinekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IngmarStein/CommandLineKit",
+      "state" : {
+        "revision" : "688ec349bf793fbdd3562d2e301c189db2f7a655",
+        "version" : "2.3.0"
+      }
+    }
+  ],
+  "version" : 3
+}
