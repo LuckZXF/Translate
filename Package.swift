@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Translate",
+    name: "TranslateCore",
     products: [
         .library(name: "TranslateCore", targets: ["TranslateCore"])
     ],
