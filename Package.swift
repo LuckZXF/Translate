@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Translate",
     products: [
-        .library(name: "Translate", targets: ["TranslateCore"])
+        .library(name: "TranslateCore", targets: ["TranslateCore"])
     ],
     dependencies: [
         .package(
